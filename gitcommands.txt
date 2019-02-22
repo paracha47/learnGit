@@ -5,4 +5,22 @@ $ git config --global user.email = "adnan72.uol@gmail.com"
 git init // for initialize git 
 then add files in git
 before addfiles you can check by using "git status" for checking purpose which files add in git 
+
+1.staging Area 
 git add -A // use for add all files
+now all files add you can check by using git status command
+
+2. snap shot area
+in which you can commit all data. and after commit you can go to the previouse verion of commit just like a time machine. can go in your past.
+git commit -m " write message " // use for commit files
+
+3.for connect your local project to github
+git remote add origin reponame // now your link create mean your snapshot area or githup is linked
+now you can push your data using
+git push origin master
+
+now how new user pull data to other machine from github 
+git clone // repository
+your data will inject here
+ git pull origin master // For pull data 
+ 
