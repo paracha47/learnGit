@@ -1,0 +1,8 @@
+for creating user in git
+$ git config --global user.email = "adnan72.uol@gmail.com"
+$ git config --global user.email = "adnan72.uol@gmail.com"
+
+git init // for initialize git 
+then add files in git
+before addfiles you can check by using "git status" for checking purpose which files add in git 
+git add -A // use for add all files
